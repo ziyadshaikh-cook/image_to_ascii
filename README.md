@@ -20,6 +20,17 @@ Turned into ASCII art:
 
 ![ascii art result](images/ascii-output.png)
 
+## Example 2
+
+Original photo:
+
+![original photo](images/original2.jpg)
+
+Turned into ASCII art:
+
+![ascii art result](images/ascii-output2.png)
+
+
 ## How to use the website
 
 Go to the live demo link above. Drop in a photo, or click to pick one from your computer. There's a slider to control how much detail is shown, and a button to flip light and dark if the result looks backwards. You can copy the result or download it as a text file. Everything happens in your browser, the photo is never sent anywhere.
@@ -49,5 +60,4 @@ python main.py photo.jpg -w 150 -o result.txt
 2. Turn it black and white
 3. Balance out the lighting a bit, so a naturally dark photo doesn't just turn into a solid block of the darkest character
 4. Replace each block with a character, dark blocks get a heavy character, light blocks get a light one or a blank space
-
 The website and the script do the same four steps, one in the browser, one in Python.
